@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaire</title>
+<style type="text/css">
+body{
+background: linear-gradient(to right, blue, white);
+margin:0;
+}
+div{
+text-align: right;
+}
+h1{
+	color:red;
+}
+input{
+float:right;
+width:90%;
+
+}
+table{
+padding-left:37%;
+}
+p{
+color: white
+}
+.envoyer{
+background-color: orange;
+border-color:orange;
+color:gold;
+opacity:0.5;
+width:93%;
+
+
+}
+.envoyer:hover {
+  background-color: gold;
+  border-color:gold;
+  color:white;
+  opacity:1;
+}
+</style>
+</head>
+<body>
+
+<div>
+<table>
+    <thead>
+	    <tr>
+	    	 <th colspan="2"><h1>Saisie des informations</h1></th>
+	    </tr>
+    </thead>
+	
+	<tbody>
+	<form method="POST">
+		<tr>
+		<td><p> Nom : </p></td><td><input type="text" name="Nom"></td>
+		</tr>
+		<tr>
+		<td><p> Prénom : </p></td><td><input type="text" name="Prenom"></td>
+		</tr>
+		<tr>
+		<td><p> Age: </p></td><td><input type="text" name="Age"></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td><input type="submit" class="envoyer"></td>
+		<tr>
+		</form>
+	</tbody>
+	
+</table>
+</div>
+<div class="cote"></div>
+</body>
+</html>
